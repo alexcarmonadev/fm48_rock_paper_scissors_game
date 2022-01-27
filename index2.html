@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Rock, Paper, Scissors, Lizard, Spock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles2.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Frontend Mentor Challenges are challenges to improve front-end coding skills by creating real projects."
+    />
+    <meta
+      name="keywords"
+      content="html, css, javascript, front-end, websites"
+    />
+    <meta name="author" content="Alexcarmonadev" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+
+    <header class="header">
+      <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+      <div class="header__logo">
+        <img class="logo" src="assets/images/logo-bonus.svg" alt="Rock, Paper, Scissors, Lizard, Spock logo" />
+      </div>
+      <div class="header__score">
+        <p class="score-title">Score</p>
+        <p class="score-number">0</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__btns">
+        <div data-btn="rock" class="rock btn main-btn"></div>
+        <div data-btn="paper" class="paper btn main-btn"></div>
+        <div data-btn="scissors" class="scissors btn main-btn"></div>
+        <div data-btn="lizard" class="lizard btn main-btn"></div>
+        <div data-btn="spock" class="spock btn main-btn"></div>
+      </div>
+
+      <div class="main__show">
+        <div class="show-user"></div>
+        <div class="show-house"></div>
+        <div class="shadow-house"></div>
+        <div class="show-user-btn btn"></div>
+        <div class="show-house-btn btn"></div>
+        <p class="show-user-picked picked">You Picked</p>
+        <p class="show-house-picked picked">The House Picked</p>
+        <div class="show-result"></div>
+        <a class="show-play-btn">Play Again</a>
+      </div>
+
+      <div class="main__modal">
+        <div class="modal-btn">Rules</div>
+        <a href="index.html" class="game-spock"
+          ><img src="assets/images/icon-paper2.svg" alt="Paper's icon"
+        /></a>
+        <div class="modal-box">
+          <p class="modal-text">Rules</p>
+          <a class="modal-btn-close">
+            <img
+              class="modal-btn-img"
+              src="assets/images/icon-close.svg"
+              alt="Icon close"
+            />
+          </a>
+          <div class="modal-img-container">
+            <img
+              class="modal-img"
+              src="assets/images/image-rules-bonus.svg"
+              alt="Rules image"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/alexcarmonadev" target="_blank"
+          >Alexcarmonadev</a
+        >.
+      </div>
+    </footer>
+    <script src="js/scripts2.js"></script>
+  </body>
+</html>
