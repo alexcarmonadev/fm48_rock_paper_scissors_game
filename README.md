@@ -1,13 +1,13 @@
 # Frontend Mentor - Rock, Paper, Scissors game solution
 
-:point_right: This is the [Rock, Paper, Scissors game](aqui va el reto de frontendmentor) challenge on Frontend Mentor.
+:point_right: This is the [Rock, Paper, Scissors game](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH) challenge on Frontend Mentor.
 
 ## Overview
 
 ### Links
 
-:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](Aqui va tu solucion de frontendmentor) </br>
-:heavy_check_mark: My `Live` Site URL : [GitHub Pages](Aqui va tu solucion de github pages)
+:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-Og_1YQb_D) </br>
+:heavy_check_mark: My `Live` Site URL : [GitHub Pages](https://alexcarmonadev.github.io/fm48_rock_paper_scissors_game/)
 
 Give a ⭐️ if you like this project!
 
